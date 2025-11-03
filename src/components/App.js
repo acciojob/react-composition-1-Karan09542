@@ -5,9 +5,9 @@ import Tab from "./Tab";
 
 const App = () => {
   const tabs = [
-    "Tab 1",
-    "Tab 2",
-    "Tab 3"
+    {title:"Tab 1", content: "Tab one"},
+    {title:"Tab 2", content: "Tab one"},
+    {title:"Tab 3", content: "Tab one"}
   ]
   return (
     <div>

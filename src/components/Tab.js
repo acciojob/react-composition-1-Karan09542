@@ -5,7 +5,7 @@ const Tab = ({tabs}) => {
   return (
     <div>
     <ul>
-        {tabs.map(tab => <li onClick={()=> setActiveTab(tab)} key={tab}>{tab}</li>)}
+        {tabs.map(tab => <li onClick={()=> setActiveTab(tab.title)} key={tab.title}>{tab.title}</li>)}
     </ul>
     <p>This is the content for Tab {activeTab}.</p>
     </div>
